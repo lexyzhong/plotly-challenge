@@ -101,9 +101,9 @@ function buildCharts(sample) {
       text: otu_labels,
       mode: "markers",
       marker: {
-        size: sample_values.map(value => value*0.8),      //adjusting size of the bubble
+        size: sample_values.map(value => value*0.8),      
         color: otu_ids, 
-        colorscale: "Earth"}                              // Found the colorscale = Earth
+        }                              
   }];
     
     // 2. Create the layout for the bubble chart.
